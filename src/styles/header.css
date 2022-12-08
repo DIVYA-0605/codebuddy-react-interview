@@ -67,7 +67,7 @@ ul li {
     background-color: white;
     max-width: 596px;
     padding: 12px 10px 12px 16px;
-    /* display: block; */
+   
     margin-left: auto;
     margin-right: auto;
     margin-top: 5rem;
@@ -91,8 +91,7 @@ ul li {
 .hamburger {
     display: flex;
     flex-direction: column;
-    /* align-items:center; */
-    /* justify-content:center; */
+   
     position: absolute;
     color: black;
     border: 1px solid #DDDDDD;
@@ -185,22 +184,16 @@ border: none;
         background-color:white;
         box-shadow: none;
     }
-    .accordion{
-
-    }
+   
     .form-check-input:checked {
         background-color:rgb(0, 128, 157);
         border-color:rgb(0, 128, 157);
     }
-.carouselCard{
-/* border:1px solid red; */
-/* border-radius:25px; */
-width: 260px;
 
-}
 .carouselCard img{
-    width: 260px;
-    height: 150px;
+
+    height: calc(6rem);
+    width: 95%;
     object-fit: cover;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -214,22 +207,21 @@ width: 260px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     padding: 0.5rem;
-  
+   
+    width: 95%;
     backdrop-filter: blur(20px);
 }
  .carousel{
     padding-left: 5rem;
     padding-right: 5rem;
 margin-top: 10rem;
+margin-bottom: 5rem;
+width: 100%;
+
+
  }
- /* .carousel{
-    padding-left:0rem;
-    padding-right: 0rem;
- } */
- .carousel1,.carousel2,.carousel3,.carousel4,.carousel5,.carousel6,.carousel7{
-    margin-left: 1rem;
-margin-right: 1rem;
- }
+
+
  
 @media only screen and (max-width: 780px) {
     .bingContainer {
@@ -267,18 +259,3 @@ margin-right: 1rem;
     
 
 }
-/* @media only screen and (min-width: 500px) {
-    .bingContainer {
-        background-position: center center;
-    }
-    .headerLogo ul{
-        display: flex;
-    }
-    .headerSign ul li:first-child{
-        display: flex;
-    }
-    .headerContainer{
-        padding: 0;
-    }
-
-} */

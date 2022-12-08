@@ -213,61 +213,39 @@ const Header = () => {
 
       <div className="carousel">
         <Slider {...settings} className="slickContainer">
-          <div className="carouselContainer">
-            <div className="carousel1">
-              <div className="carouselCard">
-                <h3>Bengalure</h3>
-                <img src="/couple.jpg" alt="" />
-              </div>
-            </div>
+          <div className="carouselCard">
+            <h3>Bengalure</h3>
+            <img src="/couple.jpg" alt="" />
           </div>
-          <div>
-            <div className="carousel2">
-              <div className="carouselCard">
-                <h3>Bengalure</h3>
-                <img src="/couple.jpg" alt="" />
-              </div>
-            </div>
+
+          <div className="carouselCard">
+            <h3>Bengalure</h3>
+            <img src="/couple.jpg" alt="" />
           </div>
-          <div>
-            <div className="carousel3">
-              <div className="carouselCard">
-                <h3>Bengalure</h3>
-                <img src="/couple.jpg" alt="" />
-              </div>
-            </div>
+
+          <div className="carouselCard">
+            <h3>Bengalure</h3>
+            <img src="/couple.jpg" alt="" />
           </div>
-          <div>
-            <div className="carousel4">
-              <div className="carouselCard">
-                <h3>Bengalure</h3>
-                <img src="/couple.jpg" alt="" />
-              </div>
-            </div>
+
+          <div className="carouselCard">
+            <h3>Bengalure</h3>
+            <img src="/couple.jpg" alt="" />
           </div>
-          <div>
-            <div className="carousel5">
-              <div className="carouselCard">
-                <h3>Bengalure</h3>
-                <img src="/couple.jpg" alt="" />
-              </div>
-            </div>
+
+          <div className="carouselCard">
+            <h3>Bengalure</h3>
+            <img src="/couple.jpg" alt="" />
           </div>
-          <div>
-            <div className="carousel6">
-              <div className="carouselCard">
-                <h3>Bengalure</h3>
-                <img src="/couple.jpg" alt="" />
-              </div>
-            </div>
+
+          <div className="carouselCard">
+            <h3>Bengalure</h3>
+            <img src="/couple.jpg" alt="" />
           </div>
-          <div>
-            <div className="carousel7">
-              <div className="carouselCard">
-                <h3>Bengalure</h3>
-                <img src="/couple.jpg" alt="" />
-              </div>
-            </div>
+
+          <div className="carouselCard">
+            <h3>Bengalure</h3>
+            <img src="/couple.jpg" alt="" />
           </div>
         </Slider>
       </div>
